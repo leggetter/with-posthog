@@ -28,6 +28,26 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 ## Learn More
 
+### PostHog
+
+Demonstates using [PostHog](https://posthog.com) for:
+
+- [Page Views](https://posthog.com/docs/integrations/js-integration#one-page-apps-and-page-views)
+- [Custom Events](https://posthog.com/docs/integrations/js-integration#sending-events)
+
+**PostHog events dashboard**
+![PostHog events dashboard](_readme-assets/posthog-events-dashboard.png)
+
+**PostHog toolbar**
+![PostHog toolbar](_readme-assets/posthog-toolbar.png)
+
+To learn more about PostHog, take a look at the following resources:
+
+- [PostHog documentation](https://posthog.com/docs)
+- [posthog-js integration](https://posthog.com/docs/integrations/js-integration)
+
+### Next.js
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 To learn more about Next.js, take a look at the following resources:
