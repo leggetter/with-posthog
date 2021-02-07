@@ -1,4 +1,4 @@
-A "signup" and "book a demo" demo application.
+An example of using [PostHog](https://posthog.com) for analytics with a [Next.js](https://nextjs.org/) application.
 
 ## Setup PostHog
 
