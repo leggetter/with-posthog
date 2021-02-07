@@ -1,8 +1,20 @@
 A "signup" and "book a demo" demo application.
 
+## Setup PostHog
+
+[Sign up for a PostHog Cloud account](https://app.posthog.com/signup)
+
+Once you have your account, create a copy of the `.env.local` configuration file from the example `.env.local.example` file:
+
+```
+cp .env.local.example .env.local
+```
+
+Update the `NEXT_PUBLIC_POSTHOG_TOKEN` variable in the new `.env.local` file with your PostHog token.
+
 ## Getting Started
 
-First, run the development server:
+Run the development server:
 
 ```bash
 npm run dev

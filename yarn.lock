@@ -854,6 +854,11 @@ expand-template@^2.0.3:
   resolved "https://registry.yarnpkg.com/expand-template/-/expand-template-2.0.3.tgz#6e14b3fcee0f3a6340ecb57d2e8918692052a47c"
   integrity sha512-XYfuKMvj4O35f/pOXLObndIRvyQ+/+6AhODh+OKWj9S9498pHHn/IMszH+gt0fBCRWMNfk1ZSp5x3AifmnI2vg==
 
+fflate@^0.4.1:
+  version "0.4.8"
+  resolved "https://registry.yarnpkg.com/fflate/-/fflate-0.4.8.tgz#f90b82aefbd8ac174213abb338bd7ef848f0f5ae"
+  integrity sha512-FJqqoDBR00Mdj9ppamLa/Y7vxm+PRmNWA67N846RvsoYVMKB4q3y/de5PA7gUmRMYK/8CMz2GDZQmCRN1wBcWA==
+
 fill-range@^7.0.1:
   version "7.0.1"
   resolved "https://registry.yarnpkg.com/fill-range/-/fill-range-7.0.1.tgz#1919a6a7c75fe38b2c7c77e5198535da9acdda40"
@@ -1514,6 +1519,13 @@ postcss@^7.0.26, postcss@^7.0.32:
     chalk "^2.4.2"
     source-map "^0.6.1"
     supports-color "^6.1.0"
+
+posthog-js@^1.8.6:
+  version "1.8.6"
+  resolved "https://registry.yarnpkg.com/posthog-js/-/posthog-js-1.8.6.tgz#62dba716bf5f008859e25238d432df5fa72d5218"
+  integrity sha512-wT6+J2/Mms5Yqb0l9/oaL7XBrXS4U7gVk64vHHn6/wfaUgjDTc4WIDSqvNz9aE5J+S8aEPugMcptJdR6m/LOPw==
+  dependencies:
+    fflate "^0.4.1"
 
 prebuild-install@^6.0.0:
   version "6.0.0"
