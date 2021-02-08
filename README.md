@@ -1,6 +1,26 @@
 An example of using [PostHog](https://posthog.com) for analytics with a [Next.js](https://nextjs.org/) application.
 
-## Setup PostHog
+## Deploy your own
+
+[Sign up for a PostHog Cloud account](https://app.posthog.com/signup).
+
+Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example-leggetter):
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/leggetter/with-posthog&project-name=with-google-analytics&repository-name=with-posthog)
+
+Remember to setup your `NEXT_PUBLIC_POSTHOG_TOKEN` [environment variable](https://vercel.com/docs/environment-variables) in Vercel.
+
+## How to use
+
+Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example::
+
+```bash
+npx create-next-app --example https://github.com/leggetter/with-posthog
+# or
+yarn create next-app --example https://github.com/leggetter/with-posthog
+```
+
+### Setup PostHog
 
 [Sign up for a PostHog Cloud account](https://app.posthog.com/signup)
 
@@ -12,7 +32,23 @@ cp .env.local.example .env.local
 
 Update the `NEXT_PUBLIC_POSTHOG_TOKEN` variable in the new `.env.local` file with your PostHog token.
 
-## Getting Started
+### Deploy to Vercel
+
+Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example-leggetter) ([Documentation](https://nextjs.org/docs/deployment)).
+
+Create and set an environment variable for `NEXT_PUBLIC_POSTHOG_TOKEN` using the following command and when prompted enter your PostHog token and select `a` for all environments:
+
+```
+vercel env add plain NEXT_PUBLIC_POSTHOG_TOKEN
+```
+
+Deploy:
+
+```
+vercel
+```
+
+## Developing Locally
 
 Run the development server:
 
@@ -59,6 +95,6 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=github&utm_campaign=next-example-leggetter) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
