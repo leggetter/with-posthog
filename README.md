@@ -48,7 +48,7 @@ Deploy:
 vercel
 ```
 
-## Developing Locally
+## Running Locally
 
 Run the development server:
 
