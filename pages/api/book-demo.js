@@ -11,7 +11,7 @@ export default (req, res) => {
         email: req.body.email
       }
     })
-    res.redirect('/confirm-demo')
+    res.redirect(303, '/confirm-demo')
   }
 }
   

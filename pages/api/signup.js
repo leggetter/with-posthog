@@ -11,6 +11,6 @@ export default (req, res) => {
         email: req.body.email
       }
     })
-    res.redirect('/welcome')
+    res.redirect(303, '/welcome')
   }  
 }
