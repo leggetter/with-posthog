@@ -39,7 +39,7 @@ Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&ut
 Create and set an environment variable for `NEXT_PUBLIC_POSTHOG_TOKEN` using the following command and when prompted enter your PostHog token and select `a` for all environments:
 
 ```
-vercel env add plain NEXT_PUBLIC_POSTHOG_TOKEN
+vercel env add secret NEXT_PUBLIC_POSTHOG_TOKEN
 ```
 
 Deploy:
@@ -69,7 +69,10 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 Demonstates using [PostHog](https://posthog.com) for:
 
 - [Page Views](https://posthog.com/docs/integrations/js-integration#one-page-apps-and-page-views)
-- [Custom Events](https://posthog.com/docs/integrations/js-integration#sending-events)
+- [Custom Events/Capture via JS Web](https://posthog.com/docs/integrations/js-integration#sending-events)
+- [Setting identity via JS Web](https://posthog.com/docs/integrations/js-integration#identifying-users)
+- [Custom Events/Capture via Node.js](https://posthog.com/docs/integrations/node-integration#capture)
+
 
 **PostHog events dashboard**
 ![PostHog events dashboard](_readme-assets/posthog-events-dashboard.png)
@@ -77,10 +80,14 @@ Demonstates using [PostHog](https://posthog.com) for:
 **PostHog toolbar**
 ![PostHog toolbar](_readme-assets/posthog-toolbar.png)
 
+**PostHog Funnel**
+![PostHog Funnel](_readme-assets/posthog-funnel.png)
+
 To learn more about PostHog, take a look at the following resources:
 
 - [PostHog documentation](https://posthog.com/docs)
 - [posthog-js integration](https://posthog.com/docs/integrations/js-integration)
+- [posthog-node integration](https://posthog.com/docs/integrations/node-integration)
 
 ### Next.js
 
