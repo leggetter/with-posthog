@@ -3,7 +3,7 @@ import '../styles/globals.css'
 import { useRouter } from 'next/router'
 import { useEffect } from 'react'
 
-import posthog from '../lib/posthog'
+import posthog from '../lib/posthog-client'
 
 function MyApp({ Component, pageProps }) {
 

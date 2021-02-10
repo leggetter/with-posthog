@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 import Layout from '../components/layout'
 
-import posthog from '../lib/posthog'
+import posthog from '../lib/posthog-client'
 import PageHero from '../components/page-hero'
 
 export default function Home() {
