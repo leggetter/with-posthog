@@ -20,11 +20,9 @@ export default function Layout({
                     <Link href="/">
                         <a>Home</a>
                     </Link>{' '}
-                    |
                     <Link href="#">
                         <a>About</a>
                     </Link>{' '}
-                    |
                     <Link href="#">
                         <a>Contact</a>
                     </Link>
@@ -35,7 +33,7 @@ export default function Layout({
                 {children}
             </main>
 
-            <footer>{'I am a footer'}</footer>
+            <footer className={styles.footer}>{'I am a footer 🦶'}</footer>
         </div>
     )
 }

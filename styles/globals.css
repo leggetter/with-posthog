@@ -14,3 +14,22 @@ a {
 * {
   box-sizing: border-box;
 }
+
+button {
+  font-size: 1.2em;
+  border-radius: 5px;
+  color: white;
+  background-color: #0070f3;
+  padding: 0.5em 2em;
+  cursor: pointer;
+}
+
+button.demoBtn {
+  background-color: red;
+}
+
+button:hover,
+button:focus,
+button:active {
+  border-color: #0070f3;
+}
